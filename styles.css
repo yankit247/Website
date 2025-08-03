@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap'); /* [cite: 1] */
+
+body {
+    font-family: 'Inter', sans-serif; /* [cite: 2] */
+    background-color: #f9fafb; /* [cite: 2] */
+    color: #1f2937; /* [cite: 2] */
+}
+
+.container {
+    max-width: 1280px; /* [cite: 3] */
+}
+
+.hero-section {
+    background-color: #1f2937; /* [cite: 4] */
+    color: #f9fafb; /* [cite: 5] */
+}
+
+.section-heading {
+    position: relative; /* [cite: 5] */
+    font-weight: 700; /* [cite: 6] */
+    font-size: 2.25rem; /* [cite: 6] */
+    color: #1d4ed8; /* [cite: 6] */
+    padding-bottom: 0.5rem; /* [cite: 6] */
+    margin-bottom: 2rem; /* [cite: 6] */
+}
+
+.section-heading::after {
+    content: ''; /* [cite: 7] */
+    position: absolute; /* [cite: 8] */
+    bottom: 0; /* [cite: 8] */
+    left: 0; /* [cite: 8] */
+    width: 70px; /* [cite: 8] */
+    height: 4px; /* [cite: 8] */
+    background-color: #1d4ed8; /* [cite: 8] */
+    border-radius: 9999px; /* [cite: 8] */
+}
+
+.card {
+    background-color: white; /* [cite: 9] */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08); /* [cite: 10] */
+    border-radius: 0.75rem; /* [cite: 10] */
+    padding: 2rem; /* [cite: 10] */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* [cite: 10] */
+}
+
+.card:hover {
+    transform: translateY(-5px); /* [cite: 11] */
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.12); /* [cite: 12] */
+}
+
+.project-card {
+    border-left: 4px solid #3b82f6; /* [cite: 12] */
+    transition: background-color 0.3s ease; /* [cite: 13] */
+}
+
+.project-card:hover {
+    background-color: #f3f4f6; /* [cite: 13] */
+}
+
+.skill-tag {
+    background-color: #dbeafe; /* [cite: 14] */
+    color: #1d4ed8; /* [cite: 15] */
+    font-weight: 500; /* [cite: 15] */
+    padding: 0.35rem 1rem; /* [cite: 15] */
+    border-radius: 9999px; /* [cite: 15] */
+    transition: transform 0.2s ease; /* [cite: 15] */
+}
+
+.skill-tag:hover {
+    transform: scale(1.05); /* [cite: 16] */
+}
+
+.contact-icon {
+    color: #9ca3af; /* [cite: 17] */
+    transition: color 0.3s ease; /* [cite: 18] */
+}
+
+.contact-icon:hover {
+    color: #1d4ed8; /* [cite: 19] */
+}
